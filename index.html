@@ -27,7 +27,7 @@
           <h3><a name="murmurhash2" class="anchor" href="#murmurhash2"><span class="octicon octicon-link"></span></a>MurmurHash3 (x64, 128 bit) </h3>
           <textarea class="str" data-attr="str" placeholder="An ASCII text" rows="5"></textarea>
           <!--<a href="#" class="btn submit">Go</a>-->
-          <input class="result" data-result="value" readonly="1" disabled="1" placeholder="Result - positive integer/hex hash"/>
+          <input class="result" data-result="value" readonly="1" onClick="this.setSelectionRange(0, this.value.length)" placeholder="Result - positive integer/hex hash"/>
           <input class="percent" data-result="percent" readonly="1" disabled="1" placeholder="%" title="position within range (result / RESULT_MAX)"/>
           <input type="text" class="seed small" data-attr="seed" placeholder="Optional seed" style="display: none;"/>
           <select name="meth2" class="meth" style="display: none;">
